@@ -102,5 +102,5 @@ p#message {
 
 #wrong-letters {
     font-size: 18px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to wrong letters text */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 }
