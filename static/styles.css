@@ -13,7 +13,7 @@ body {
 h1 {
     margin-top: 20px;
     color: white;
-    font-family: 'Bevan', cursive; /* Apply Bevan font to the h1 */
+    font-family: 'Bevan', cursive; 
 }
 
 .game-container {
@@ -43,7 +43,7 @@ h1 {
     font-weight: bold;
     background-color: #3a3a3c;
     text-transform: uppercase;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to grid items */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 }
 
 .correct-position {
@@ -73,31 +73,31 @@ input {
     text-transform: uppercase;
     padding: 10px;
     margin-right: 10px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to input field */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 button {
     font-size: 20px;
     padding: 10px 20px;
     cursor: pointer;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to button */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 p#message {
     font-size: 22px;
     color: rgb(226, 220, 220);
     margin-top: 10px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to message text */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 }
 
 #wrong-letters-container {
-    margin-left: 40px; /* Increase this value to move it further to the right */
+    margin-left: 40px; 
     color: white;
     position: absolute;
     left: 100%;
-    transform: translateX(40px); /* Adjust this value to fine-tune the positioning */
-    white-space: nowrap; /* Prevent wrapping to keep "Wrong Letters" on one line */
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to wrong letters container */
+    transform: translateX(40px); 
+    white-space: nowrap;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
 }
 
 #wrong-letters {
