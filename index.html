@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Clone</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Wordle Clone</h1>
+    <div class="game-container">
+        <div id="grid-container" class="grid-container"></div>
+        <div id="wrong-letters-container">
+            <h2>Wrong Letters</h2>
+            <p id="wrong-letters"></p>
+        </div>
+    </div>
+    <form id="wordle-form">
+        <input type="text" id="guess" maxlength="5">
+        <button type="submit">Guess</button>
+    </form>
+    <p id="message"></p>
+    <script src="static/scripts.js"></script>
+</body>
+</html>
