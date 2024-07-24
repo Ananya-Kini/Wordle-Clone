@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Bevan', cursive; /* Apply Bevan font to the h1 */
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    position: relative;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(6, 60px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3a3a3c;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to grid items */
+}
+
+.correct-position {
+    background-color: #538d4e;
+    color: white;
+}
+
+.correct-letter {
+    background-color: #b59f3b;
+    color: #fff;
+}
+
+.incorrect-letter {
+    background-color: #3a3a3c;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to input field */
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to button */
+}
+
+p#message {
+    font-size: 22px;
+    color: rgb(226, 220, 220);
+    margin-top: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to message text */
+}
+
+#wrong-letters-container {
+    margin-left: 40px; /* Increase this value to move it further to the right */
+    color: white;
+    position: absolute;
+    left: 100%;
+    transform: translateX(40px); /* Adjust this value to fine-tune the positioning */
+    white-space: nowrap; /* Prevent wrapping to keep "Wrong Letters" on one line */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to wrong letters container */
+}
+
+#wrong-letters {
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Apply Helvetica Neue to wrong letters text */
+}

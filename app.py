@@ -7,7 +7,7 @@ app = Flask(__name__, static_folder='static', static_url_path='/static')
 CORS(app)
 
 # Load words from the file
-with open('wordlist_fives.txt', 'r') as file:
+with open('wordledata.txt', 'r') as file:
     words = [word.strip() for word in file.readlines()]
 
 # Initialize the global variable to hold the word of the day
